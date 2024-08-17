@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0px;
+padding: 0px;
+    }
+h1{
+     background-color: burlywood;
+    color: brown;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+#form{
+    background-color: burlywood;
+margin-top:10px ;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+color: brown;
+text-align:center ; 
+padding: 15PX;
+position: relative;
+
+}
+#myid{
+    background-color :burlywood;
+text-align: center;
+padding: 15px;
+}
+#btn1{
+    background-color: brown;
+    color: burlywood;
+    width: 70px;
+font-size: 20px;
+padding: 5px;
+border-radius: 12px;
+cursor: pointer;
+}
+#btn2{
+    background-color: brown;
+    color: burlywood;
+    
+ font-size: 20px;
+padding: 5px;
+border-radius: 12px;
+cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+    <h1>LOGIN HERE</h1>
+    <form  method="post" id="form">
+      
+        <div id="container">
+          <label for="uname"><b>Username</b></label>
+          <input id="INP1" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+          <label for="psw"><b>Password</b></label>
+          <input id="INP2" type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+    </form>
+          <div id="myid">
+            <button id="btn1" type="submit">Login</button>
+          <button id="btn2" type="button" id="cancelbtn">Cancel</button>
+        </div>
+
+</body>
+</html>
